@@ -12,7 +12,7 @@ def eyebreak():
             print("We will send you a notifcation every", minutes, "minutes  when it is time for an eye break!")
             print("If you want to stop Eye Break, close this window.")
         else:
-            notification.notify(title='Eye Break', message='Time for an eye break! Look at a faraway wall for 20 seconds!', app_icon=None, timeout=20)
+            notification.notify(title='Eye Break', message='Time for an eye break! Look away from the screen for at least 20 seconds!', app_icon=None, timeout=20)
         time.sleep(delay)
 print('''Eye Break 
 Made by Jacob 2021''')
